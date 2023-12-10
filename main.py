@@ -19,7 +19,3 @@ def main():
         # Call the function to find the largest number
         result = find_largest_number(num1, num2, num3)
         st.success(f"The largest number is: {result}")
-
-# Run the Streamlit app
-if __name__ == "__main__":
-    main()
